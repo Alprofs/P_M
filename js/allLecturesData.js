@@ -686,3 +686,10 @@ const allLecturesData = {
         }
     ]
 };
+
+
+if (typeof allLectures !== 'undefined') {
+    allLectures.push(allLecturesData);
+} else {
+    var allLectures = [allLecturesData];
+}
